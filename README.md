@@ -14,9 +14,19 @@ NodeJS >= 12.13.0
 Installation:
 
 ```
+git clone https://github.com/apothan/open-tour-website.git
+```
+
+```
 composer install
 ```
 
 ```
 yarn install
 ```
+
+```
+yarn encore dev
+symfony server:start
+```
+And go to http://127.0.0.1:8000/
