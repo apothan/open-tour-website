@@ -1,0 +1,10 @@
+_open_tour_lib:
+    resource: '@ApothanOpenTourLibBundle/config/routes/'
+    type: directory
+    prefix: /
+
+
+#_open_tours_default:
+#    resource: '@ApothanOpenToursBundle/Controller/DefaultController.php'
+#    type: annotation
+#    prefix: /OTF
