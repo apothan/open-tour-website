@@ -15,18 +15,16 @@ Installation:
 
 ```
 git clone https://github.com/apothan/open-tour-website.git
-```
-
-```
 composer install
-```
-
-```
 yarn install
+yarn encore dev
 ```
 
+Update your .env file with your database credentials and create DB if needed
+
+Update your .env file with your OpenTour API credentails
+
 ```
-yarn encore dev
 symfony server:start
 ```
 And go to http://127.0.0.1:8000/
