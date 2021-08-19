@@ -21,7 +21,6 @@ Encore
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
     .addEntry('app', './vendor/apothan/open-tour-website-lib/assets/js/app.js')
-    .addEntry('app', './vendor/apothan/open-tour-website-lib/assets/js/app.js')
     .addEntry('tourcategories', './vendor/apothan/open-tour-website-lib/assets/js/tourcategories.js')
     .addEntry('tourfeatures', './vendor/apothan/open-tour-website-lib/assets/js/tourfeatures.js')
     .addEntry('toursells', './vendor/apothan/open-tour-website-lib/assets/js/toursells.js')
