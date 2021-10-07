@@ -33,3 +33,10 @@ You can overwrite each page
 - Copy the html.twig file from the vendor/apothan/open-tour-website-lib/templates folder
 - Paste the file into templates/bundles/ApothanOpenTourWebsiteLib folder
 - Chnage this file to how would like the website to look.
+
+## Tips:
+
+- If you are running this on Apache be sure to require the symfony apache pack:
+```
+composer require symfony/apache-pack
+```
